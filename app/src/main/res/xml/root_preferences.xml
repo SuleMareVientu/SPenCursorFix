@@ -1,0 +1,49 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <Preference
+        app:key="pref_header_card"
+        app:layout="@layout/preference_header_card"
+        app:selectable="false" />
+
+    <PreferenceCategory app:title="General">
+        <SwitchPreferenceCompat
+            app:key="pref_enabled"
+            app:title="Enable S Pen Cursor Fix"
+            app:summary="Replace mouse arrow cursor with OneUI hover dot"
+            app:defaultValue="true" />
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="Appearance">
+        <ListPreference
+            app:key="pref_dot_color"
+            app:title="Hover Dot Color"
+            app:useSimpleSummaryProvider="true"
+            app:entries="@array/color_names"
+            app:entryValues="@array/color_values"
+            app:defaultValue="#B6E5EA" />
+
+        <ListPreference
+            app:key="pref_dot_radius"
+            app:title="Dot Size"
+            app:useSimpleSummaryProvider="true"
+            app:entries="@array/size_names"
+            app:entryValues="@array/size_values"
+            app:defaultValue="4.0" />
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="Advanced">
+        <EditTextPreference
+            app:key="pref_target_name"
+            app:title="Target Device Name"
+            app:useSimpleSummaryProvider="true"
+            app:dialogTitle="Target Input Device Name"
+            app:defaultValue="sec_e-pen" />
+
+        <SwitchPreferenceCompat
+            app:key="pref_debug_log"
+            app:title="Verbose Logging"
+            app:summary="Output device resolution logs to logcat"
+            app:defaultValue="false" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

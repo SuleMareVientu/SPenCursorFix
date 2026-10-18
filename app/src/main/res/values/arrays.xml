@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="xposed_scope">
+        <item>android</item>
+    </string-array>
+
+    <string-array name="color_names">
+        <item>OneUI S Pen Cyan (#B6E5EA) [Official Default]</item>
+        <item>Samsung Deep Blue (#0072DE)</item>
+        <item>Pure White (#FFFFFF)</item>
+        <item>Pure Black (#000000)</item>
+        <item>Cyan Teal (#00BCD4)</item>
+        <item>Neon Purple (#9C27B0)</item>
+        <item>Vibrant Amber (#FF9800)</item>
+    </string-array>
+
+    <string-array name="color_values">
+        <item>#B6E5EA</item>
+        <item>#0072DE</item>
+        <item>#FFFFFF</item>
+        <item>#000000</item>
+        <item>#00BCD4</item>
+        <item>#9C27B0</item>
+        <item>#FF9800</item>
+    </string-array>
+
+    <string-array name="size_names">
+        <item>Tiny (3 dp)</item>
+        <item>OneUI Official (4 dp) [Default]</item>
+        <item>Medium (5 dp)</item>
+        <item>Large (6 dp)</item>
+        <item>Extra Large (8 dp)</item>
+        <item>Maximum (10 dp)</item>
+    </string-array>
+
+    <string-array name="size_values">
+        <item>3.0</item>
+        <item>4.0</item>
+        <item>5.0</item>
+        <item>6.0</item>
+        <item>8.0</item>
+        <item>10.0</item>
+    </string-array>
+</resources>

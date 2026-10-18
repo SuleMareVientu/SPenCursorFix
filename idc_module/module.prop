@@ -1,0 +1,6 @@
+id=spen_cursor_idc
+name=S Pen IDC Overlay (LineageOS for Tablets)
+version=v1.0.0
+versionCode=100
+author=LineageOS
+description=Configures sec_e-pen as touchScreen to eliminate initial hover and touch mouse arrow cursor flash on LineageOS for Tablets.

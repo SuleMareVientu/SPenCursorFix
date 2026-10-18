@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <!-- Diagonal Blue-to-Purple Background Gradient -->
+    <linearGradient id="bg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3888ff" />
+      <stop offset="50%" stop-color="#545bf9" />
+      <stop offset="100%" stop-color="#702bf3" />
+    </linearGradient>
+
+    <!-- Canvas Boundary Clip -->
+    <clipPath id="canvas-clip">
+      <rect width="512" height="512" />
+    </clipPath>
+  </defs>
+
+  <!-- Background -->
+  <rect width="512" height="512" fill="url(#bg-gradient)" />
+
+  <!-- Rotated Coordinate System (45 deg around center) -->
+  <g clip-path="url(#canvas-clip)">
+    <g transform="translate(256, 256) rotate(45)">
+      
+      <!-- 45-Degree Long Shadows -->
+      <g fill="#000000" fill-opacity="0.12">
+        <!-- Cap Shadow -->
+        <rect x="12" y="-164" width="500" height="33" />
+        <!-- Main Body Shadow -->
+        <rect x="0" y="-116" width="500" height="252" />
+        <!-- Nib Shadow -->
+        <rect x="0" y="151" width="500" height="35" />
+      </g>
+
+      <!-- White Pen / Stylus Icon -->
+      <g fill="#ffffff">
+        <!-- Top Cap -->
+        <rect x="-28.5" y="-164" width="57" height="33" rx="16.5" ry="16.5" />
+
+        <!-- Main Body -->
+        <path d="M -28.5 -116 
+                 L 28.5 -116 
+                 L 28.5 25 
+                 C 28.5 70, 24 112, 11 136 
+                 L -11 136 
+                 C -24 112, -28.5 70, -28.5 25 
+                 Z" />
+
+        <!-- Bottom Tip / Nib -->
+        <path d="M -10.5 151 
+                 L 10.5 151 
+                 C 12 165, 6 186, 0 186 
+                 C -6 186, -12 165, -10.5 151 
+                 Z" />
+      </g>
+
+    </g>
+  </g>
+</svg>

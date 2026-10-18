@@ -1,0 +1,26 @@
+<resources>
+    <style name="Theme.SPenCursorFix" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Brand / Accent Colors (S Pen Cyan / Blue) -->
+        <item name="colorPrimary">#006495</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="colorPrimaryContainer">#CCE5FF</item>
+        <item name="colorOnPrimaryContainer">#001D32</item>
+
+        <!-- Surface & Container Colors for Material 3 -->
+        <item name="colorSurface">#FDFBFF</item>
+        <item name="colorOnSurface">#1A1C1E</item>
+        <item name="colorSurfaceVariant">#DFE2EB</item>
+        <item name="colorOnSurfaceVariant">#43474E</item>
+        <item name="colorOutline">#73777F</item>
+        <item name="colorOutlineVariant">#C3C7CF</item>
+        <item name="colorSurfaceContainerLow">#F7F3F8</item>
+        <item name="colorSurfaceContainer">#F1EDF2</item>
+        <item name="colorSurfaceContainerHigh">#EBE7EC</item>
+
+        <!-- Edge-to-edge transparent system bars -->
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar">true</item>
+    </style>
+</resources>
